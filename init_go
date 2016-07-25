@@ -1,0 +1,4 @@
+export PS1="(go) `echo $PS1` "
+alias go='GOPATH=$(`pwd`) go'
+
+export deactivate="`source ~/.bashrc`"
